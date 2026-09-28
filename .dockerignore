@@ -1,0 +1,10 @@
+.git
+.gitignore
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+tests/
+EyeWatch1.ipynb
+EyeWatch1withoutoutputs.ipynb

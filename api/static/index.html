@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EyeWatch Camera Detection</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>EyeWatch Camera Detection</h1>
+      <p class="note">
+        Camera access generally works on <strong>localhost</strong> or over
+        <strong>HTTPS</strong>.
+      </p>
+      <div class="controls">
+        <button id="start-camera">Enable Camera</button>
+        <button id="capture-detect" disabled>Capture &amp; Detect</button>
+      </div>
+      <div class="preview">
+        <video id="video" autoplay playsinline></video>
+        <canvas id="canvas"></canvas>
+      </div>
+      <p id="status"></p>
+      <ul id="results"></ul>
+    </main>
+    <script src="/static/app.js"></script>
+  </body>
+  </html>
